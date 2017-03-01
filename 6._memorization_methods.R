@@ -394,3 +394,5 @@ dTest$nbpredl <- nBayes(pPos,dTest[,pVars])
 print(calcAUC(dTrain$nbpredl,dTrain[,outcome]))
 print(calcAUC(dCal$nbpredl,dCal[,outcome]))
 print(calcAUC(dTest$nbpredl,dTest[,outcome]))
+
+# en nu hebben we een wijziging
